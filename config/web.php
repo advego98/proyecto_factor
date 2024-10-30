@@ -42,14 +42,15 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'stack-exchange/get-questions' => 'stack-exchange/recent-questions',
             ],
         ],
-        */
+        
     ],
     'params' => $params,
 ];
